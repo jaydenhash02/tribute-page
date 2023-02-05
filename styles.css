@@ -1,0 +1,64 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* increase font size of heading */
+h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+figcaption {
+  margin-bottom: 20px;
+}
+
+#main {
+  background-color: #eee;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+img {
+  width: 1000px;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+header {
+  width: 100%;
+}
+
+header,
+#img-div,
+#tribute-info,
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#img-div {
+  background-color: white;
+  width: 99.9%;
+}
+
+header h1,
+header figcaption {
+  text-align: center;
+}
+
+#tribute-info {
+  width: 25%;
+  color: #333;
+}
+
+li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.quote {
+  font-style: italic;
+}

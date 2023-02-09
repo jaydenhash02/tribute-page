@@ -50,7 +50,7 @@ header figcaption {
 }
 
 #tribute-info {
-  width: 25%;
+  max-width: 40vw;
   color: #333;
 }
 
